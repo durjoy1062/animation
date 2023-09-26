@@ -1,0 +1,63 @@
+.container{
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: grid;color: antiquewhite;
+  grid-gap: 50px;padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,180px);
+  grid-template-areas: "h h h"
+                       "s s s"
+                       "t f v"
+                       "x n e";
+}
+.header{
+  grid-area: h;display:grid;grid-gap: 10px;
+  border-radius: 10px;
+  background-color: rgb(46, 44, 44);
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-template-areas: "l r";
+}
+.left{
+  grid-area: l;padding: 20px 70px;
+  text-align: justify;
+}
+.right{
+  grid-area: r;padding: 20px 70px;
+  text-align: justify;
+  
+}
+.right img{
+  width: 165px;
+height: 45px;margin-left: 250px;
+}
+.second{
+  grid-area: s;
+}
+.third{grid-area: t;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+.forth{grid-area: f;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+.fifth{grid-area: v;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+.sixth{grid-area: x;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+.seventh{grid-area: n;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+.eighth{grid-area: e;
+  background-color: rgb(46, 44, 44);padding: 0px 10px;
+  text-align:justify;border-radius: 10px;
+}
+

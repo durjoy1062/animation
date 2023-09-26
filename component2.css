@@ -1,0 +1,109 @@
+.container{
+  background: url(img/Property\ 1=1.png);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6,200px);
+  grid-template-areas: "u"
+                       "u"
+                       "h"
+                       "f"
+                       "f"
+                       "l";
+}
+.uper{
+  grid-area: u;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: antiquewhite;padding: 50px;
+}
+.number{
+  display:flex;margin: auto;
+  text-align: center;align-items: center;
+}
+.number img{
+  width: 20px;height: 40px;
+  margin-right: 10px;border: 2px solid;
+  padding: 5px;border-radius: 50%;
+  box-shadow: 0 0 5px wheat;
+}
+.email{
+  display:flex;margin: auto;
+  text-align: center;align-items: center;
+}
+.email img{
+  width: 20px;height: 40px;
+  margin-right: 10px;border: 2px solid;
+  padding: 5px;border-radius: 50%;
+  box-shadow: 0 0 5px wheat;
+}
+.place{
+  display:flex;margin: auto;
+  text-align: center;align-items: center;
+}
+.place img{
+  width: 20px;height: 40px;
+  margin-right: 10px;border: 2px solid;
+  padding: 5px;border-radius: 50%;
+  box-shadow: 0 0 5px wheat;
+}
+.intro{
+  display:flex;margin: auto;
+  text-align: center;align-items: center;
+  gap:30px
+}
+hr{
+  grid-area: h;
+  width: 1000px;display: flex;justify-content: center;
+  align-items: center;color: rgba(106, 113, 119, 0.438);
+}
+.footer{
+  grid-area: f;
+  margin-top: -400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: antiquewhite;padding: 50px;
+}
+.apps{
+  margin: auto;text-align: center;
+}
+.click{
+  margin-right: 130px;margin-bottom: -53px;
+}
+.logo{
+  display: flex;justify-content: center;
+  gap: 40px;
+}
+.logo img{
+  border: 2px solid;padding: 5px;
+  width: 25px;border-radius: 50%;
+  box-shadow: 0 0 5px wheat;
+}
+.page{
+  margin: auto;text-align: justify;
+}
+.service{
+  margin: auto;text-align: justify;
+}
+.search{
+  border: 2px solid;padding: 7px;
+  border-radius: 15px;background-color:white;
+  display: flex;
+}
+.search input{
+  border: none;font-family: Arial, Helvetica, sans-serif;
+}
+.search img{
+  border: 2px solid rgb(143, 33, 233);
+  border-radius: 50%;background-color: blueviolet;
+  padding: 1px;
+}
+.under{
+  grid-area: l; margin-top: -200px;
+  display: flex;justify-content: center;
+  color: #ffffff;font-family: Arial, Helvetica, sans-serif;
+}
